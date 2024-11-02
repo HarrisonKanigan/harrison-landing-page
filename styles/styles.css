@@ -52,3 +52,52 @@ nav a {
     margin-top: 10px;
     font-weight: normal;
 }
+
+#projects {
+    text-align: center;
+    margin: 100px 0;
+}
+
+#projects h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 4rem;
+    color: #f5f5dc;
+    margin-bottom: 20px;
+}
+
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    transition: transform 0.3s;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+}
+
+.project-item i {
+    font-size: 3rem;
+    color: #f5f5dc;
+    margin-bottom: 10px;
+}
+
+.project-item a {
+    font-size: 1.5rem;
+    color: #f5f5dc;
+    text-decoration: none;
+}
+
+.project-item a:hover {
+    text-decoration: underline;
+}
