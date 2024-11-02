@@ -33,3 +33,22 @@ nav a {
     font-size: 24px;
     transition: color 0.3s;
 }
+
+.title {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.title h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 5rem;
+    color: #f5f5dc;
+    margin: 0;
+}
+
+.title.caption {
+    font-size: 2rem;
+    color: #f5f5dc;
+    margin-top: 10px;
+    font-weight: normal;
+}
