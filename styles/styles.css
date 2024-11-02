@@ -3,3 +3,9 @@ body {
     margin: 0;
     font-family: 'Anton', sans-serif;
 }
+
+header {
+    background-color: #007bff;
+    padding: 20px;
+    text-align: center;
+}
