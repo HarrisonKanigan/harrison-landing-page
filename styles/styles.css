@@ -135,3 +135,18 @@ nav a {
     max-width: 500px;
     text-align: center;
 }
+
+footer {
+    background-color: #007bff;
+    color: #f5f5dc;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.5rem;
+}
